@@ -27,7 +27,6 @@ Implementação de um formulário de contato na página pessoal desenvolvida ant
 ## Tecnologias utilizadas
 
 - HTML5
-- CSS básico (estilização pontual)
 
 ## Contexto acadêmico
 
