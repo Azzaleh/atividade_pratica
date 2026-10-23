@@ -24,12 +24,6 @@ Implementação de um formulário de contato na página pessoal desenvolvida ant
 - `Atividade 2 - Página Pessoal.pdf` — documento com o enunciado da Atividade 2.
 - `Atividade - Formulário de contato.pdf` — documento com o enunciado da Atividade 3.
 
-## Demonstração — Atividade 3
-
-Captura de tela do formulário de contato implementado na página pessoal.
-
-![Formulário de Contato](print_formulario.png)
-
 ## Tecnologias utilizadas
 
 - HTML5
