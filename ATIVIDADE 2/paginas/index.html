@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Página Pessoal</title>
+		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
 		<header>
 			<h1>Minha Página Pessoal</h1>
-			<p>Seja Bem-Vindo a minha Página Pessoal, fique a vontade!</p>
+			<p>Seja bem-vindo à minha página pessoal, fique à vontade!</p>
 		</header>
 		<nav>
 			<a href="https://flutter.dev/">FLUTTER</a>
@@ -16,43 +17,51 @@
 			<a href="sobre.html">SOBRE ESTA PÁGINA</a>
 		</nav>
 		<main>
-			<section>
-				<h2>Quem eu sou?</h2>
-				<p><strong>Me chamo Cézar Albert da Costa Rodrigues, e sou Programador!<br>
-					Sou formado em Análise e Desenvolvimento de Sistemas e atualmente<br>
-					trabalho com Flutter, um framework criado pelo Google que utiliza<br>
-				a linguagem de programação Dart que também foi criada pelo Google.</strong></p>
-				<img src="../img/image.webp" alt="O que é Flutter?">
-			</section>
-			<section>
-				<h2>Meus Hobbies</h2>
-				<p>Abaixo estão alguns dos meus hobbies:</p>
-				<ul>
-					<li>Livros</li>
-					<li>Jogos</li>
-					<li>Filmes</li>
-					<li>Séries</li>
-					<li>Música</li>
-				</ul>
-			</section>
-			<section>
-				<h2>Entre em contato</h2>
-				<p>Preencha o formulário abaixo para entrar em contato comigo.</p>
-				<form action="#" method="post">
-					<fieldset>
-						<legend>Formulário de Contato</legend>
-						<label for="nome">Nome:</label>
-						<input type="text" id="nome" name="nome" required><br>
-						<label for="email">E-mail:</label>
-						<input type="email" id="email" name="email" required><br>
-						<label for="assunto">Assunto:</label>
-						<input type="text" id="assunto" name="assunto" required><br>
-						<label for="mensagem" style="vertical-align: top;">Mensagem:</label>
-						<textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea><br>
-						<button type="submit">Enviar</button> <button type="reset">Limpar</button>
-					</fieldset>
-				</form>
-			</section>
+			<div class="conteudo-superior">
+				<section>
+					<h2>Quem eu sou?</h2>
+					<p><strong>Me chamo Cézar Albert da Costa Rodrigues, e sou Programador!<br>
+						Sou formado em Análise e Desenvolvimento de Sistemas e atualmente<br>
+						trabalho com Flutter, um framework criado pelo Google que utiliza<br>
+					a linguagem de programação Dart que também foi criada pelo Google.</strong></p>
+					<img class="imagem-flutter" src="../img/image.webp" alt="O que é Flutter?">
+				</section>
+				<section>
+					<h2 class="hobbies-destaque">Meus Hobbies</h2>
+					<p>Abaixo estão alguns dos meus hobbies:</p>
+					<ul>
+						<li>Livros</li>
+						<li>Jogos</li>
+						<li>Filmes</li>
+						<li>Séries</li>
+						<li>Música</li>
+					</ul>
+				</section>
+			</div>	
+				<section>
+					<h2>Entre em contato</h2>
+					<p>Preencha o formulário abaixo para entrar em contato comigo.</p>
+					<form action="#" method="post">
+						<fieldset>
+							<legend>Formulário de Contato</legend>
+							<label for="nome">Nome:</label>
+							<input type="text" id="nome" name="nome"
+							placeholder="Digite seu nome" required>
+							<label for="email">E-mail:</label>
+							<input type="email" id="email" name="email"
+							placeholder="Digite seu e-mail" required>
+							<label for="assunto">Assunto:</label>
+							<input type="text" id="assunto" name="assunto"
+							placeholder="Digite o assunto" required>
+							<label for="mensagem">Mensagem:</label>
+							<textarea id="mensagem" name="mensagem" rows="5" cols="40"
+							placeholder="Digite sua mensagem"></textarea>
+							<button type="submit">Enviar</button>
+							<button type="reset">Limpar</button>
+						</fieldset>
+					</form>
+				</section>
+
 		</main>
 		<footer>
 			<p>Cézar Albert da Costa Rodrigues <a href="https://github.com/Azzaleh">GitHub</a></p>
