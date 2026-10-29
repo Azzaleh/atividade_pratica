@@ -46,7 +46,8 @@ Aplicação de estilos CSS às páginas desenvolvidas nas atividades anteriores,
 
 ![Formulário de Contato](print_formulário.png)
 
-## Captura de tela atividade 4 CSS
+## Capturas de tela — Atividade 4 CSS
 
-![Formulário de Contato](print atividade 3 index.png)
-![Formulário de Contato](print atividade 3 sobre.png)
+![Página Inicial](print%20atividade%203%20index.png)
+
+![Página Sobre](print%20atividade%203%20sobre.png)
