@@ -48,6 +48,6 @@ Aplicação de estilos CSS às páginas desenvolvidas nas atividades anteriores,
 
 ## Capturas de tela — Atividade 4 CSS
 
-![Página Inicial](print%20atividade%203%20index.png)
+![Página Inicial](print%20atividade%204%20index.png)
 
-![Página Sobre](print%20atividade%203%20sobre.png)
+![Página Sobre](print%20atividade%204%20sobre.png)
