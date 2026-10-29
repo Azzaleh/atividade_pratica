@@ -16,17 +16,24 @@ Desenvolvimento de uma página pessoal utilizando elementos semânticos do HTML5
 
 ### Atividade 3 — Formulário de Contato
 
-Implementação de um formulário de contato na página pessoal desenvolvida anteriormente, utilizando elementos HTML.
+Implementação de um formulário de contato na página pessoal desenvolvida anteriormente, utilizando elementos HTML para entrada de dados, como campos de texto, e-mail e área de mensagem.
+
+### Atividade 4 — Estilização com CSS
+
+Aplicação de estilos CSS às páginas desenvolvidas nas atividades anteriores, utilizando seletores, classes, propriedades de cores, fontes, espaçamentos, bordas e alinhamentos para melhorar a aparência e a organização visual do conteúdo.
 
 ## Estrutura do projeto
 
 - `ATIVIDADE 2/` — pasta contendo as subpastas `paginas/`, com os arquivos HTML, e `img/`, com as imagens utilizadas.
 - `Atividade 2 - Página Pessoal.pdf` — documento com o enunciado da Atividade 2.
 - `Atividade - Formulário de contato.pdf` — documento com o enunciado da Atividade 3.
+- `Atividade 4 - CSS.pdf` — documento com o enunciado da Atividade 4 (ajustar conforme o nome real do arquivo).
+- `style.css` — arquivo responsável pela estilização das páginas HTML.
 
 ## Tecnologias utilizadas
 
-- HTML5
+- **HTML5** — estruturação e organização do conteúdo das páginas.
+- **CSS3** — estilização e apresentação visual dos elementos HTML.
 
 ## Contexto acadêmico
 
@@ -34,6 +41,12 @@ Implementação de um formulário de contato na página pessoal desenvolvida ant
 - **Disciplina:** Programação Web I
 - **Professor:** Fábio Ferreira
 - **Instituição:** Instituto Federal do Sudeste de Minas Gerais (IF Sudeste MG)
+
 ## Captura de tela formulário
 
 ![Formulário de Contato](print_formulário.png)
+
+## Captura de tela atividade 4 CSS
+
+![Formulário de Contato](print atividade 3 index.png)
+![Formulário de Contato](print atividade 3 sobre.png)
