@@ -22,6 +22,10 @@ Implementação de um formulário de contato na página pessoal desenvolvida ant
 
 Aplicação de estilos CSS às páginas desenvolvidas nas atividades anteriores, utilizando seletores, classes, propriedades de cores, fontes, espaçamentos, bordas e alinhamentos para melhorar a aparência e a organização visual do conteúdo.
 
+### Atividade 5 - Layouts com Flexbox e Grid
+
+Aplicação de Flexbox e Grid Layout para organizar a estrutura da página pessoal e criar uma seção de tecnologias e interesses com quatro cartões, utilizando alinhamentos, espaçamentos e adaptação para diferentes tamanhos de tela.
+
 ## Estrutura do projeto
 
 - `ATIVIDADE 2/` — pasta contendo as subpastas `paginas/`, com os arquivos HTML, e `img/`, com as imagens utilizadas.
