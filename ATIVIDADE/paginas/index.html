@@ -6,67 +6,117 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
-		<header>
-			<h1>Minha Página Pessoal</h1>
-			<p>Seja bem-vindo à minha página pessoal, fique à vontade!</p>
-		</header>
-		<nav>
-			<a href="https://flutter.dev/">FLUTTER</a>
-			<a href="https://dart.dev/">DART</a>
-			<a href="https://www.ifsudestemg.edu.br/">IF SUDESTE</a>
-			<a href="sobre.html">SOBRE ESTA PÁGINA</a>
-		</nav>
-		<main>
-			<div class="conteudo-superior">
+		<div class="pagina">
+
+			<header>
+				<h1>Minha Página Pessoal</h1>
+				<p>Seja bem-vindo à minha página pessoal, fique à vontade!</p>
+			</header>
+			<nav>
+				<a href="https://flutter.dev/">FLUTTER</a>
+				<a href="https://dart.dev/">DART</a>
+				<a href="https://www.ifsudestemg.edu.br/">IF SUDESTE</a>
+				<a href="sobre.html">SOBRE ESTA PÁGINA</a>
+			</nav>
+			<main>
+				<div class="conteudo-superior">
+					<section>
+						<h2>Quem eu sou?</h2>
+						<p><strong>Me chamo Cézar Albert da Costa Rodrigues, e sou Programador!<br>
+							Sou formado em Análise e Desenvolvimento de Sistemas e atualmente<br>
+							trabalho com Flutter, um framework criado pelo Google que utiliza<br>
+						a linguagem de programação Dart que também foi criada pelo Google.</strong></p>
+						<img class="imagem-flutter" src="../img/image.webp" alt="O que é Flutter?">
+					</section>
+					<section>
+						<h2 class="hobbies-destaque">Meus Hobbies</h2>
+						<p>Abaixo estão alguns dos meus hobbies:</p>
+						<ul>
+							
+							<li>Livros</li>
+							<li>Jogos</li>
+							<li>Filmes</li>
+							<li>Séries</li>
+							
+							<li>Música</li>
+						</ul>
+					</section>
+				</div>	
+
+
 				<section>
-					<h2>Quem eu sou?</h2>
-					<p><strong>Me chamo Cézar Albert da Costa Rodrigues, e sou Programador!<br>
-						Sou formado em Análise e Desenvolvimento de Sistemas e atualmente<br>
-						trabalho com Flutter, um framework criado pelo Google que utiliza<br>
-					a linguagem de programação Dart que também foi criada pelo Google.</strong></p>
-					<img class="imagem-flutter" src="../img/image.webp" alt="O que é Flutter?">
-				</section>
-				<section>
-					<h2 class="hobbies-destaque">Meus Hobbies</h2>
-					<p>Abaixo estão alguns dos meus hobbies:</p>
-					<ul>
-						
-						<li>Livros</li>
-						<li>Jogos</li>
-						<li>Filmes</li>
-						<li>Séries</li>
-						
-						<li>Música</li>
-					</ul>
-				</section>
-			</div>	
-				<section>
-					<h2>Entre em contato</h2>
-					<p>Preencha o formulário abaixo para entrar em contato comigo.</p>
-					<form action="#" method="post">
-						<fieldset>
-							<legend>Formulário de Contato</legend>
-							<label for="nome">Nome:</label>
-							<input type="text" id="nome" name="nome"
-							placeholder="Digite seu nome" required>
-							<label for="email">E-mail:</label>
-							<input type="email" id="email" name="email"
-							placeholder="Digite seu e-mail" required>
-							<label for="assunto">Assunto:</label>
-							<input type="text" id="assunto" name="assunto"
-							placeholder="Digite o assunto" required>
-							<label for="mensagem">Mensagem:</label>
-							<textarea id="mensagem" name="mensagem" rows="5" cols="40"
-							placeholder="Digite sua mensagem"></textarea>
-							<button type="submit">Enviar</button>
-							<button type="reset">Limpar</button>
-						</fieldset>
-					</form>
+				    <h2>Tecnologias e Interesses</h2>
+
+				    <div class="grade-cartoes">
+
+				        <div class="cartao">
+				            <h3>Flutter</h3>
+				            <p>O Flutter é um kit de desenvolvimento de software (SDK) de interface gráfica de código aberto criado pela Google. Ele permite a criação de aplicativos compilados nativamente para múltiplas plataformas — incluindo Android, iOS, Web, Windows, macOS e Linux — a partir de uma única base de código</p>
+				            <div class="tags">
+				                <span>Dart</span>
+				                <span>Mobile</span>
+				            </div>
+				        </div>
+
+				        <div class="cartao">
+				            <h3>Python</h3>
+				            <p>O Python é uma linguagem de programação de alto nível, interpretada, de tipagem dinâmica e com foco na legibilidade do código.</p>
+				            <div class="tags">
+				                <span>Automação</span>
+				                <span>Desktop</span>
+				            </div>
+				        </div>
+
+				        <div class="cartao">
+				            <h3>Rust</h3>
+				            <p>O Rust é uma linguagem de programação de sistemas criada pela Mozilla e desenvolvida por Graydon Hoare em 2010. Ela é focada em desempenho, confiabilidade e segurança de memória.</p>
+				            <div class="tags">
+				                <span>Automação</span>
+				                <span>Desktop</span>
+				            </div>
+				        </div>
+
+				        <div class="cartao">
+				            <h3>GitHub</h3>
+				            <p>O GitHub é a maior plataforma de hospedagem de código-fonte e desenvolvimento colaborativo do mundo, baseada no sistema de controle de versão Git. Fundado em 2008 e adquirido pela Microsoft em 2018, ele funciona como uma "rede social para programadores"</p>
+				            <div class="tags">
+				                <span>Controle de Versão</span>
+				                <span>Backup</span>
+				            </div>
+				        </div>
+
+				    </div>
 				</section>
 
-		</main>
-		<footer>
-			<p>Cézar Albert da Costa Rodrigues <a href="https://github.com/Azzaleh">GitHub</a></p>
-		</footer>
+
+					<section>
+						<h2>Entre em contato</h2>
+						<p>Preencha o formulário abaixo para entrar em contato comigo.</p>
+						<form action="#" method="post">
+							<fieldset>
+								<legend>Formulário de Contato</legend>
+								<label for="nome">Nome:</label>
+								<input type="text" id="nome" name="nome"
+								placeholder="Digite seu nome" required>
+								<label for="email">E-mail:</label>
+								<input type="email" id="email" name="email"
+								placeholder="Digite seu e-mail" required>
+								<label for="assunto">Assunto:</label>
+								<input type="text" id="assunto" name="assunto"
+								placeholder="Digite o assunto" required>
+								<label for="mensagem">Mensagem:</label>
+								<textarea id="mensagem" name="mensagem" rows="5" cols="40"
+								placeholder="Digite sua mensagem"></textarea>
+								<button type="submit">Enviar</button>
+								<button type="reset">Limpar</button>
+							</fieldset>
+						</form>
+					</section>
+
+			</main>
+			<footer>
+				<p>Cézar Albert da Costa Rodrigues <a href="https://github.com/Azzaleh">GitHub</a></p>
+			</footer>
+		</div>	
 	</body>
 </html>
