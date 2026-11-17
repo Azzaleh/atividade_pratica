@@ -26,6 +26,10 @@ Aplicação de estilos CSS às páginas desenvolvidas nas atividades anteriores,
 
 Aplicação de Flexbox e Grid Layout para organizar a estrutura da página pessoal e criar uma seção de tecnologias e interesses com quatro cartões, utilizando alinhamentos, espaçamentos e adaptação para diferentes tamanhos de tela.
 
+### Atividade 6 - Responsividade com CSS 
+
+Aplicação de unidades relativas e Media Queries para adaptar a página pessoal a diferentes tamanhos de tela, utilizando Flexbox e Grid Layout para reorganizar os elementos e garantir a legibilidade e a navegação em computadores, tablets e smartphones.
+
 ## Estrutura do projeto
 
 - `ATIVIDADE 2/` — pasta contendo as subpastas `paginas/`, com os arquivos HTML, e `img/`, com as imagens utilizadas.
@@ -55,3 +59,7 @@ Aplicação de Flexbox e Grid Layout para organizar a estrutura da página pesso
 ![Página Inicial](print%20atividade%204%20index.png)
 
 ![Página Sobre](print%20atividade%204%20sobre.png)
+
+## Captura de tela — Atividade 6 CSS
+
+
