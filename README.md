@@ -61,5 +61,5 @@ Aplicação de unidades relativas e Media Queries para adaptar a página pessoal
 ![Página Sobre](print%20atividade%204%20sobre.png)
 
 ## Captura de tela — Atividade 6 CSS
-
+![Página Sobre](atividade6.png)
 
